@@ -19,6 +19,7 @@ const Footer = () => {
       <div style={styles.storeSection}>
         <h3 style={styles.heading}>Cửa hàng</h3>
         <p>55 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội</p>
+        <p>55 Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội </p>
         
       </div>
 
