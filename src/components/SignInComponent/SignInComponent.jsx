@@ -9,7 +9,7 @@ import InputForm from '../InputFormComponent/InputForm'
 
 const SignInComponent = () => {  
   return (
-    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height:'90vh' }}>
+    <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', height:'100vh' }}>
         <div style={{width: '600px', height: '650px',padding:'20px', borderRadius:'6px ', border:'1px solid black', background: 'fff', }}>
             <WrapperContainerLeft style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
                 <h1 style={{textAlign: 'center'}}>Xin Chào</h1>

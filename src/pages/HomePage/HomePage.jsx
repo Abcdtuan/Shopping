@@ -11,7 +11,7 @@ import Footer from '../../components/FooterComponent\'/FooterComponent';
 const HomePage = () => {
   const arr = ['Quần Nam', 'Áo Nam', 'Quần Nữ', 'Áo Nữ'];
   return (
-    <div style={{height: '2500px'}}>
+    <div style={{height: '2000px'}}>
       <WrapperTypeProducts>
         {arr.map((item) =>
         {

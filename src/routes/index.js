@@ -1,4 +1,7 @@
+
+import CartPage from "../pages/HomePage/CartPage/CartPage";
 import HomePage from "../pages/HomePage/HomePage";
+import MenShirtPage from "../pages/MenShirtPage/MenShirtPage";
 import NotFoundPage from "../pages/NotFoundPage/NotFoundPage";
 import OrderPage  from "../pages/OrderPage/OrderPage";
 import ProductDetailPage from "../pages/ProductDetailPage/ProductDetailPage";
@@ -35,6 +38,21 @@ export const routes = [
     {
         path: '/product-detail',
         page: ProductDetailPage,
+        isShowHeader: true
+    },
+    {
+        path: '/cart',
+        page: CartPage,
+        isShowHeader: true
+    },
+    {
+        path: '/cart',
+        page: CartPage,
+        isShowHeader: true
+    },
+    {
+        path: '/menshirt',
+        page: MenShirtPage,
         isShowHeader: true
     },
     {

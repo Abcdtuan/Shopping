@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const WrapperProduct = styled.div`
   display: flex;
-  height: 800px;
+  height: 700px;
   justify-content: center;
   align-items: flex-start;
   gap: 40px;

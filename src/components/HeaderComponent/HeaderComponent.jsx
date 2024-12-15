@@ -41,6 +41,7 @@ const HeaderComponent = () => {
         </WrapperCart>
       </Col>
       </WrapperHeader>
+      
     </div>
   )
 }
