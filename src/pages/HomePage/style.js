@@ -11,6 +11,3 @@ export const WrapperTypeProducts = styled.div`
     font-size: 18px;
 
 `;
-export const WrapperImages = styled.div`
-    width: 100%
-`

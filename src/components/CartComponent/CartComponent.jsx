@@ -5,12 +5,13 @@ import { Coupon, ProductInfo, ProductName, Total } from './Style';
 
 const CartComponent = () => {
   return (
-    <div style={{ maxWidth: 600, margin: '0 auto', padding: 16 }}>
+    <div style={{ maxWidth: 600, margin: '0 auto', padding: 16, marginTop: '30px' }}>
       
       <Card style={{ marginBottom: 16 }}>
         <div style={{ display: 'flex' }}>
           <img
             src="https://levents.asia/cdn/shop/files/Tan_LTSSOCOA420UT0400FW24_1.jpg?v=1729691307&width=473"
+            
             alt="Tee"
             style={{ width: 120, marginRight: 16 }}
           />

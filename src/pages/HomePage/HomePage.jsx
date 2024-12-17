@@ -23,10 +23,10 @@ const HomePage = () => {
       
       <SliderComponent arrImages={[slide_1_img, slide_2_img]}/>
       <div style={{ marginTop: '50px', display:'flex', alignItems: 'center', gap: '51px' }}>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
+        <CardComponent poster_url="https://levents.asia/cdn/shop/files/LightBlue_LHZBXCLE101UB0202FW24_1.jpg?v=1729511098&width=437" name_card="Classic Zipper Hoodie Boxy 2.0" price="400.000" />
+        <CardComponent poster_url="https://levents.asia/cdn/shop/files/VintageBlack_LSHOVCOB355UD0102SS24_1.jpg?v=1724224942&width=437" name_card="Striped Baseball Jersey" price="570.000"/>
+        <CardComponent poster_url="https://levents.asia/cdn/shop/files/Tan_LTSSOCOA420UT0400FW24_1.jpg?v=1729691307&width=437" name_card="My Garden Semi-Oversize Tee" price="4200.000"/>
+        <CardComponent poster_url="https://levents.asia/cdn/shop/files/Blue_LHOOVCOD417UB0102FW24_1.jpg?v=1727362791&width=437" name_card="Crocodile Hoodie" price="630.000"/>
       </div>
       <div 
         style={{

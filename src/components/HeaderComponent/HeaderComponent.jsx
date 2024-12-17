@@ -1,6 +1,6 @@
 import { Col } from 'antd'
 import React from 'react'
-import { WrapperHeader, WrapperHeaderAccount, WrapperTextHeader, WrapperHeaderCart, WrapperCart, } from './style'
+import { WrapperHeader, WrapperHeaderAccount, WrapperTextHeader,  WrapperCart, WrapperHeaderCart, } from './style'
 import {
   UserOutlined,
   DownOutlined,
