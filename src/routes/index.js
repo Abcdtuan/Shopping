@@ -1,5 +1,6 @@
 
 import Account from "../pages/AccountPage/Account";
+import CheckOut from "../pages/CheckoutPage/CheckOut";
 import ForgetPass from "../pages/ForgetPasswordPage/ForgetPass";
 import CartPage from "../pages/HomePage/CartPage/CartPage";
 import HomePage from "../pages/HomePage/HomePage";
@@ -84,6 +85,11 @@ export const routes = [
     {
         path: '/account',
         page: Account,
+        isShowHeader: true
+    },
+    {
+        path: '/checkout',
+        page: CheckOut,
         isShowHeader: true
     },
     {
